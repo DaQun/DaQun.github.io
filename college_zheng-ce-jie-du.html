@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>逸凡教育</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <!-- themefy-icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <!-- venobox popup -->
+    <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- header -->
+<header class="fixed-top header">
+    <!-- top header -->
+    <div class="top-header py-2 bg-white">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 text-center text-lg-left">
+                    <a class="text-color mr-3" href="callto:+443003030266"><strong></strong></a>
+                </div>
+                <div class="col-lg-8 text-center text-lg-right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">公告</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">在校学生</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">教职员工</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar -->
+    <div class="navigation w-100">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item @@home">
+                            <a class="nav-link" href="index.html">主页</a>
+                        </li>
+                        <li class="nav-item @@home">
+			              <a class="nav-link" href="about.html">关于</a>
+			            </li>
+                        <li class="nav-item dropdown view">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">小初高文化课</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="teacher.html">师资力量</a>
+                                <a class="dropdown-item" href="environment.html">培训环境</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown view">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">成人教育</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="adult_gao-zhi-kuo-zhao.html">高职扩招项目</a>
+                                <a class="dropdown-item" href="adult_wang-luo-jiao-yu.html">网络教育学历</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown view">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">大学直通车</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="college_zheng-ce-jie-du.html">江苏注册入学政策解读</a>
+                                <a class="dropdown-item" href="college_zhao-sheng-jian-zhang.html">培训学校大学直通车招生简章</a>
+                            </div>
+                        </li>
+                        <li class="nav-item @@blog">
+                            <a class="nav-link" href="contact.html">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="list-inline custom-breadcrumb">
+                    <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">大学直通车</a></li>
+                    <li class="list-inline-item text-white h3 font-secondary nasted">江苏注册入学政策解读</li>
+                </ul>
+<!--                <p class="text-lighten">Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p>-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /page title -->
+
+<!-- blog details -->
+<section class="section-sm bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-4">
+<!--                <img src="images/blog/blog-single.jpg" alt="blog-thumb" class="img-fluid w-100">-->
+            </div>
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">2019-11-22</li>
+                </ul>
+            </div>
+            <!-- border -->
+            <div class="col-12 mt-4">
+                <div class="border-bottom border-primary"></div>
+            </div>
+            <!-- blog contect -->
+            <div class="col-12 mb-5">
+
+                <div>
+                    <h2><strong>注册入学热点问题解答</strong></h2>
+                    <p>1、什么是注册入学？</p>
+                    <p>答：注册入学是指考生根据院校提出的报考条件和录取要求，结合自身情况，可同时申请注册6个&ldquo;院校+专业&rdquo;；院校根据考生高考成绩、学业水平测试成绩、综合素质评价结果，以及中等教育阶段的学习成绩等方面的情况，依据院校招生章程，在申请注册的考生范围内确定预录取考生顺序名单；被院校预录取的考生，省教育考试院通过计算机系统，根据招生计划数，按照考生填报志愿的先后顺序和院校确定的考生预录取顺序自动匹配录取1个院校及专业，注册即完成。</p>
+                    <p>2、注册入学与统一录取形式有何不同？</p>
+                    <p>答：统一录取模式下，考生符合多个院校投档条件时，考生的档案只能投放到1所院校，由院校根据其招生章程公布的规则决定录取与否及所录取专业；而注册入学的考生可以同时申请注册6个&ldquo;院校+专业&rdquo;志愿，省教育考试院将同一考生的电子档案同时投放至考生申请注册的所有院校，由院校按照事先公布的录取规则，在申请注册本校的考生范围内，确定预录取考生名单，并对符合相关专业录取条件的考生进行排序，对不符合录取条件的考生提出退档意见。省教育考试院根据院校专业招生计划、考生志愿顺序和专业预录取排序等情况，由计算机自动匹配确定考生最终的录取院校和专业。</p>
+                    <p>3、哪些院校和专业可以参加注册入学试点？</p>
+                    <p>答：省内办学行为规范、培养质量较高、社会认可度较高的民办高职院校和部分公办院校自愿申请，经批准，均可参加注册入学试点工作。2019年面向普高学生注册入学试点院校共有69所（公办48所，民办21所）。具体院校名单，考生可登录省教育考试院门户网(www.jseea.cn)查看或查阅《江苏招生考试》（2019年招生计划专刊下册）。</p>
+                    <p>4、哪些考生可以通过注册方式进入高职院校学习？</p>
+                    <p>答：注册入学院校首先在文科类、理科类专业中进行注册入学试点。凡参加普通高校招生全国统一考试未被录取，且取得全部七门科目学业水平测试成绩的考生，均可申请注册入学。未兼报文科类或理科类的体育、艺术类考生，只要符合上述条件，可选择参加文科类或理科类专业的注册入学。</p>
+                    <p>5、注册入学是否意味着对考生学业成绩没有要求？</p>
+                    <p>答：注册入学并不是对考生学业成绩没有要求，而是省里不再划定统一的录取分数线，由招生院校根据其专业设置、学科特点、培养要求以及往年录取情况等，对考生的学业成绩提出多样化选才要求。其中，对参加普通高校招生全国统一考试且未被统一录取批次录取的考生，院校可对其高考成绩和学业水平测试成绩等提出要求，达到院校要求的考生方可申请注册入学。因此，注册入学实现了院校和学生之间&ldquo;各取所需&rdquo;&ldquo;双向选择&rdquo;，不等于不要入学门槛，更不等于降低生源质量，只是对考生的评价模式不同而已。</p>
+                    <p>6、申请注册入学的考生是否要求参加体检？</p>
+                    <p>答：申请注册入学的普高学生均须参加由县级（含）以上招办和卫生部门组织实施的高考体检。考生的体检工作按教育部、卫生部和中国残疾人联合会印发的《普通高等学校招生体检工作指导意见》（教学〔2003〕3号）（以下简称《体检意见》）、《教育部办公厅卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》（教学厅〔2010〕2号）和《省教育考试院关于做好2019年普通高校招生体检工作的通知》（苏教考招〔2019〕1号）有关规定执行。</p>
+                    <p>7、注册入学包括哪些流程？</p>
+                    <p>答：注册入学均须通过省教育考试院设立的注册入学网上管理平台（gkzy.jseea.cn）进行。注册入学共分两轮进行，每轮均包含考生申请、院校预录取、计算机匹配录取三个过程。</p>
+                    <p>（1）考生申请。符合注册入学条件的考生，通过网络登录省教育考试院注册入学管理平台，按&ldquo;院校+专业&rdquo;的方式，可同时申请注册6个&ldquo;院校+专业&rdquo;志愿。</p>
+                    <p>（2）院校预录取。院校依据向社会公布的招生章程，按照录取规则，确定申请注册本校考生预录取名单并进行排序。</p>
+                    <p>（3）计算机匹配录取。省教育考试院通过计算机系统，根据招生计划数，按照考生填报志愿的先后顺序和院校确定的考生预录取顺序自动匹配录取1个院校及专业，注册即完成，考生不需要通过网络确认录取信息。</p>
+                    <p>凡上一轮符合条件未注册成功的考生，均可继续参加下一轮申请；凡已成功注册的考生，不得再重新申请注册其他院校；未能成功注册的考生，一律不予办理录取备案手续。</p>
+                    <p>经过计算机匹配录取后未完成计划的院校，可在下一轮继续接受考生申请，当院校录取考生数达到招生计划数时，即已完成招生计划。</p>
+                    <p>8、注册入学工作的具体时间是如何安排的？</p>
+                    <p>答：考生可登录省教育考试院门户网站查询注册入学试点院校的招生章程、招生计划、录取要求等相关信息。面向参加普通高考考生的注册入学工作，在高职（专科）统一录取批次结束后进行，具体注册时间安排如下：</p>
+                    <p>第一轮：8月7日至9日</p>
+                    <p>8月7日8:30-17:00，考生网上提交注册申请；</p>
+                    <p>8月8日8:30-9日11:30，院校审核确定预录取考生名单；</p>
+                    <p>8月9日12:30-17:00，计算机匹配录取。</p>
+                    <p>第二轮:8月10日至11日</p>
+                    <p>8月10日8:30-17:00，考生网上提交注册申请；</p>
+                    <p>8月11日8:30-11:30，院校审核确定预录取考生名单；</p>
+                    <p>8月11日12:30-17:00，计算机匹配录取。</p>
+                    <p>&nbsp;9、被注册录取的考生入学报到手续如何办理？</p>
+                    <p>答：注册录取的考生与统一录取的考生入学报到手续相同，除须持院校寄送的录取通知书以及党团等相关材料外，还须携带高级中等教育学校毕业证书，到院校办理入学报到手续。</p>
+                    <p>10、考生参加注册入学录取后是否可以转入非注册入学专业学习？</p>
+                    <p>答：凡注册录取的考生，一律不得转入非注册入学（即统招）专业学习，只能在注册入学试点的专业范围内互相调剂。</p>
+                    <p>11、院校注册入学与统一录取颁发的毕业文凭是否有区别？</p>
+                    <p>答：注册入学计划与统一录取计划的性质完全相同，其招收的考生，除录取方式不同外，在校待遇、毕业生就业政策以及毕业文凭等均与统一录取的考生相同。</p>
+                    <p>12、考生在参加注册入学时的常见问题。</p>
+                    <p>&nbsp;（1）高职（专科）注册入学网址是什么？</p>
+                    <p>答：考生可以登录以下任何一个网址参加高职（专科）注册入学：①gkzy.jseea.cn②www.jseea.cn</p>
+                    <p>&nbsp;（2）注册入学咨询热线电话号码是什么？</p>
+                    <p>答：注册入学录取期间，各市、县（市、区）招办都有专人负责接受考生咨询，省教育考试院的咨询电话为（025）83235898、83235998。</p>
+                    <p>&nbsp;（3）考生忘记登录密码或遗失动态口令卡怎么办？</p>
+                    <p>答：考生填报志愿、查询录取结果，均须使用密码和动态口令卡，如考生忘记密码，可在填报志愿系统登录界面进行密码重置，也可到报名所在地县（市、区）招办申请密码重置；如动态口令卡遗失，考生凭准考证、身份证和本人书面申请到高考报名所在地县（市、区）招办申请补发动态口令卡。因密码或动态口令卡遗失造成的不利影响，由考生本人负责。</p>
+                    <p>（4）体育类、艺术类不兼报文科类、理科类考生能否参加注册入学？</p>
+                    <p>答：体育、艺术类不兼报文科类、理科类的考生，只要参加普通高校招生全国统一考试未被录取，且取得全部七门科目学业水平测试成绩的，可选择参加文科类或理科类专业的注册入学。</p>
+                    <p>（5）注册入学的学生与统一录取的学生有什么区别？</p>
+                    <p>答：注册入学计划与统一录取计划的性质完全相同，其招收的考生除录取方式不同外，在校待遇、毕业生就业政策以及毕业文凭等均与统一录取的考生相同。</p>
+                    <p>（注：本部分问答内容综合整理自江苏省教育考试院）</p>
+                    <p>&nbsp;</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /blog details -->
+
+<!-- footer -->
+<footer>
+    <!-- newsletter -->
+    <!-- footer content -->
+    <div class="footer bg-footer section border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+                    <!-- logo -->
+                    <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">0574-86820303</li>
+                        <li class="mb-2">0574-86823838</li>
+                        <li class="mb-2">1098769722@qq.com</li>
+                    </ul>
+                </div>
+                <!-- company -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                    <h4 class="text-white mb-5">逸凡教育</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a class="text-color" href="about.html">关于我们</a></li>
+                        <li class="mb-3"><a class="text-color" href="teacher.html">我们的教师</a></li>
+                        <li class="mb-3"><a class="text-color" href="contact.html">联系</a></li>
+                    </ul>
+                </div>
+                <!-- links -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                    <h4 class="text-white mb-5">链接</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a class="text-color" href="adult_gao-zhi-kuo-zhao.html">高职扩招</a></li>
+                        <li class="mb-3"><a class="text-color" href="adult_wang-luo-jiao-yu.html">网络教育</a></li>
+                        <li class="mb-3"><a class="text-color" href="college_zheng-ce-jie-du.html">注册入学政策</a></li>
+                        <li class="mb-3"><a class="text-color" href="college_zhao-sheng-jian-zhang.html">大学生直通车招生简章</a></li>
+                    </ul>
+                </div>
+                <!-- support -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                    <h4 class="text-white mb-5">推荐</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a class="text-color" href="http://zxx.100xuexi.com/">中小学学习网</a></li>
+                        <li class="mb-3"><a class="text-color" href="https://www.tongzhuo100.com/">同桌100学习网</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /footer -->
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- google map -->
+
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
