@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>逸凡教育：网络教育</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <!-- themefy-icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <!-- venobox popup -->
+    <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- header -->
+<header class="fixed-top header">
+    <!-- top header -->
+    <div class="top-header py-2 bg-white">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 text-center text-lg-left">
+                    <a class="text-color mr-3" href="callto:+443003030266"><strong></strong></a>
+                </div>
+                <div class="col-lg-8 text-center text-lg-right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="">公告</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="">在校学生</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="">教职员工</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar -->
+    <div class="navigation w-100">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item @@home">
+                            <a class="nav-link" href="index.html">主页</a>
+                        </li>
+                        <li class="nav-item dropdown view">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">小初高文化课</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="teacher.html">师资力量</a>
+                                <a class="dropdown-item" href="environment.html">培训环境</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown view">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">成人教育</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="adult_gao-zhi-kuo-zhao.html">高职扩招项目</a>
+                                <a class="dropdown-item" href="adult_wang-luo-jiao-yu.html">网络教育学历</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown view">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">大学直通车</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="college_zheng-ce-jie-du.html">江苏注册入学政策解读</a>
+                                <a class="dropdown-item" href="college_zhao-sheng-jian-zhang.html">培训学校大学直通车招生简章</a>
+                            </div>
+                        </li>
+                        <li class="nav-item @@blog">
+                            <a class="nav-link" href="contact.html">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="list-inline custom-breadcrumb">
+                    <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="blog.html">成人教育</a></li>
+                    <li class="list-inline-item text-white h3 font-secondary nasted">网络教育</li>
+                </ul>
+<!--                <p class="text-lighten">Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p>-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /page title -->
+
+<!-- blog details -->
+<section class="section-sm bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-4">
+<!--                <img src="images/blog/blog-single.jpg" alt="blog-thumb" class="img-fluid w-100">-->
+            </div>
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">2019-11-22</li>
+                </ul>
+            </div>
+            <!-- border -->
+            <div class="col-12 mt-4">
+                <div class="border-bottom border-primary"></div>
+            </div>
+            <!-- blog contect -->
+            <div class="col-12 mb-5">
+
+                <div>
+                    <h2><strong>逸凡教育成人学历教育项目一：网络教育</strong></h2>
+                    <p>网络教育学历，学历真实有效，学信网终身可查，学习方式灵活，考试易通过，学习费用适中，是上班族拿学历的首选方式。通过网络教育拿到的学历，可用于评职称、考研、公务员、事业单位等，学历含金量高，终身有效。</p>
+                    <p><strong>一、逸凡教育学习优势</strong>：</p>
+                    <p>1、入学方式简单,入学测试易通过，学习方式灵活，不影响工作；</p>
+                    <p>2、学制短，两年半毕业，学费适中，性价比高；</p>
+                    <p>3、学校均为985、211重点院校，教育部注册学籍，学历；</p>
+                    <p>4、无论学习形式还是学习费用，网络教育都是为上班族量身定制的优质学历方式。</p>
+                    <p><strong>二、招生对象</strong></p>
+                    <p>高起专：具有高中、中专毕业证书或具有国民教育同等学力的应（往）届毕业生，报读时年龄需满18周岁。&nbsp;</p>
+                    <p>&nbsp;专升本：具有国民教育系列高等专科或以上毕业证书，报读时年龄须满21周岁。</p>
+                    <p><strong>三、报名材料：</strong></p>
+                    <p>1、考生须携带身份证原件进行正式报名确认；</p>
+                    <p>2、报读专升本的考生，还须携带专科及以上学历毕业证书原件及复印件（A4）1份，电子版形式提交相关毕业证书在&ldquo;学信网&rdquo;的查询截图。</p>
+                    <p>3、报读学员须提供本人使用且真实可靠的手机号码，以确保联系畅通（我校将不定期采用电话、视频等方式核实考生相关情况，请各考生配合）。</p>
+                    <p>4、2寸蓝底免冠照片6张及电子照片</p>
+                    <p>5、缴纳报名费200元。</p>
+                    <p><strong>四、学制、学习期限以及学费</strong></p>
+                    <p>1、学制与学分：</p>
+                    <p>高升专：实行学分制。最短学制：2.5年，有效学习期限为2.5年～5年，总学分为80学分。</p>
+                    <p>专升本：实行学分制。最短学制：2.5年，有效学习期限为2.5年～4年，总学分为80学分。</p>
+                    <p>2、收费标准：按学分收取学费。</p>
+                    <p>高升专：120元/学分，2.5年总计学费9600.00元，缴费方式：第一学年4800.00元、第二学年4800.00元；</p>
+                    <p>专升本：150元/学分，2.5年总计学费12800.00元，缴费方式：第一学年6400.00元、第二学年6400.00元；</p>
+                    <p>3、缴费时间：新生录取后在规定时间内缴纳第一学年学费。第二次缴费在第二学年开始。</p>
+                    <p><strong>五</strong><strong>、 教学方式</strong></p>
+                    <p>1、非全日制：根据教育部规定，网络高等学历教育主要开展面向成人的非全日制教育。</p>
+                    <p>2、教学模式：视频课件学习（实时直播或非实时点播）+导学资料（学习指导、教师讲稿）+课程论坛讨论互动+网上实时/非实时答疑辅导+在线作业+考前模拟题或复习大纲+期末考试。在学习期限内，学生可按照学校要求的学习进度或根据个人情况制定学习计划，通过阅读教材、浏览网络课程的方式自主安排学习时间和地点。</p>
+                    <p>3、教师辅导：阶段性网上实时辅导，非实时答疑，每学期考试前集中辅导。</p>
+                    <p>4、期末考核方式：笔试，平时成绩占总评成绩的30-35%（特殊课程除外）。</p>
+                    <p><strong>六、</strong><strong>秋季招生时段及入学考试</strong></p>
+                    <p>1、20年秋季招生时段：2019年11月15日起&mdash;&mdash;2020年3月5日截止</p>
+                    <p>2、入学考试时间：入学考试分批次进行：以中心具体通知为准！</p>
+                    <p>3、入学考试形式：机考</p>
+                    <p>4、录取：由报考大学自主命题组织入学考试。免试入学者在审核合格后，统一发放录取通知书。</p>
+                    <p>5、正式入学：领取入取通知书，办理注册、缴纳第一学年学费等相关手续。</p>
+                    <p><strong>七</strong><strong>、</strong><strong>免考政策</strong></p>
+                    <p>1、免试入学</p>
+                    <p>符合下列条件之一者可免试入学：</p>
+                    <p>专升本：</p>
+                    <p>（1）第二本科层次、第二专科层次</p>
+                    <p>（2）本院已修课程（针对本院退学学生）</p>
+                    <p>（3）已通过网络教育的入学考试(一年有效)</p>
+                    <p>（4）达到当年成人高考成绩（一年有效）</p>
+                    <p>（5）持有全国计算机等级一级及以上，免入学考&ldquo;计算机基础&rdquo;</p>
+                    <p>2、入学考免考英语</p>
+                    <p>符合下列条件之一者可免考英语或大学英语：</p>
+                    <p>（1）报考当时年满40周岁者；</p>
+                    <p>（2）获得PETS-3、CET-4或以上级别证书者；</p>
+                    <p><strong>八、相关考试</strong><strong>科目：</strong></p>
+                    <p>1、入学考试科目：</p>
+                    <p>高升专层次多为：语文、数学、英语;</p>
+                    <p>专升本层次为：</p>
+                    <p>理工类：公共英语、高等数学、计算机文化基础。</p>
+                    <p>经济管理类：公共英语、大学语文、计算机文化基础。</p>
+                    <p>外语类：专业英语、大学语文、计算机文化基础。</p>
+                    <p>艺术类：公共英语、大学语文、设计基础。</p>
+                    <p>2、毕业统考科目</p>
+                    <p>全国统一考试科目为&ldquo;大学英语&rdquo;、&ldquo;计算机应用基础&rdquo;，已具有国民教育系列本科及以上学历，可免考全部统考科目。</p>
+                    <p>除计算机类专业学生外，获得全国计算机等级考试一级B或以上级别证书者，可免考&ldquo;计算机应用基础&rdquo;。除英语专业学生外，获得全国公共英语等级考试（PETS）三级或以上级别证书者，省级教育行政部门组织的成人教育学位英语考试合格证书者，入学注册时年龄满40周岁者，可免考&ldquo;大学英语&rdquo;。</p>
+                    <p><strong>九、</strong><strong>毕业与学位</strong></p>
+                    <p>1、毕业：在规定的有效学习期限内，修读完成教学计划规定的全部课程或学分，成绩合格；专升本学生还须通过全国高校网络教育考试委员会组织的现代远程教育试点高校网络教育部分公共基础课全国统一考试后，由报考的大学颁发有教育部统一电子注册号的毕业证书（网络教育）。</p>
+                    <p>2、学位：本科学生提出申请，经审核凡符合学位授予条件者由华师大大学授予成人高等教育学士学位。</p>
+                    <p>条件：1.英语三级笔试合格；2.各科平均分70分；3.毕业论文成绩良以上（含）</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><strong>附</strong><strong>报考学校及专业</strong></p>
+                    <p><strong>1、武汉理工大学</strong></p>
+                    <p>高起专：计算机应用技术、工商企业管理、会计、建筑工程管理、建筑工程技术、道路桥梁工程技术、机电一体化技术、电气自动化技术、汽车运用与维修技术</p>
+                    <p>专升本：计算机科学与技术、工商管理、会计学、法学、市场营销、土木工程、物流管理、道路桥梁与渡河工程、工程管理、汽车服务工程、机械设计及自动化、电气工程及自动化、无机非金属材料工程</p>
+                    <p><strong>2、电子科技大学</strong></p>
+                    <p>高起专：机电一体化技术、电气工程及自动化、计算机应用技术、行政管理</p>
+                    <p>专升本：电子信息工程、电气工程及自动化、电子商务、网络工程、计算机科学与技术、机械设计制造及自动化、通信工程、软件工程、行政管理、工商管理</p>
+                    <p><strong>3、南开大学</strong></p>
+                    <p>高起专；药学、旅游管理、人力资源管理、计算机应用技术、工商企业管理、电子商务、会计、旅游管理(国际酒店方向)、</p>
+                    <p>专升本：工业工程、信息安全、行政管理、药学、工商管理、会计学、、旅游管理、人力资源管理、法学、市场营销、物流管理、计算机科学与技术、电子商务、汉语言文学、财务管理、经济学、金融学、保险学、国际经济与贸易、广播电视学、旅游管理(国际酒店方向)。</p>
+                    <p><strong>4、北京外国语大学</strong></p>
+                    <p>高起专：工商管理、国际经济与贸易</p>
+                    <p>专升本：工商管理、会计学、信息管理与信息系统、金融学、国际经济与贸易、电子商务、计算机科学与技术</p>
+                    <p><strong>5、</strong><strong>兰州大学</strong></p>
+                    <p>专升本：土木工程、人力资源管理、金融学、计算机科学与技术、会计学、护理 学、行政管理、汉语言文学、公共事业管理、工 商管理、法学、药学</p>
+                    <p><strong>6、大连理工大学</strong></p>
+                    <p>高起专：水利水电建筑工程、电力系统自动化技术、建筑工程技术、计算机应用技术、建筑工程管理、工商企业管理、公共事务管理、道路桥梁工程技术、机械制造与自动化</p>
+                    <p>专升本：水利水电工程、电气工程及自动化、土木工程、计算机科学与技术、工程管理、工商管理、机械设计制造及自动化</p>
+                    <p><strong>7、东北大学</strong></p>
+                    <p>高起专：电气自动化技术、安全技术与管理、煤矿开采技术、机电一体化技术、行政管理、建筑工程技术</p>
+                    <p>专升本：冶金技术、安全工程、工商管理、公共事业管理、电气工程及自动化、会计学、法学、采矿工程、行政管理、资源勘查工程、土木工程、市场营销、机械工程、计算机科学与技术</p>
+                    <p><strong>8</strong><strong>、国家开放大学</strong><strong>（高起专：7500；专升本：8500）</strong></p>
+                    <p>高起专：电子商务、市场营销、会计、会展策划与管理、动漫设计、表演艺术、文秘、物业管理、建筑室内设计、智能终端与应用、工艺美术品设计、数字展示技术、公共文化管理等</p>
+                    <p>专升本：标准化工程、法学、文化产业管理、信息安全、计算机科学与技术、土木工程、经济与金融、电子商务、学前教育</p>
+                </div>
+                <p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /blog details -->
+
+<!-- footer -->
+<footer>
+    <!-- newsletter -->
+    <!-- footer content -->
+    <div class="footer bg-footer section border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+                    <!-- logo -->
+                    <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">0574-86820303</li>
+                        <li class="mb-2">0574-86823838</li>
+                        <li class="mb-2">1098769722@qq.com</li>
+                    </ul>
+                </div>
+                <!-- company -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                    <h4 class="text-white mb-5">逸凡教育</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a class="text-color" href="about.html">关于我们</a></li>
+                        <li class="mb-3"><a class="text-color" href="teacher.html">我们的教师</a></li>
+                        <li class="mb-3"><a class="text-color" href="contact.html">联系</a></li>
+                    </ul>
+                </div>
+                <!-- links -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                    <h4 class="text-white mb-5">链接</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a class="text-color" href="">高职扩招</a></li>
+                        <li class="mb-3"><a class="text-color" href="">网络教育</a></li>
+                        <li class="mb-3"><a class="text-color" href="">注册入学政策</a></li>
+                        <li class="mb-3"><a class="text-color" href="">大学生直通车招生简章</a></li>
+                    </ul>
+                </div>
+                <!-- support -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                    <h4 class="text-white mb-5">推荐</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a class="text-color" href="http://zxx.100xuexi.com/">中小学学习网</a></li>
+                        <li class="mb-3"><a class="text-color" href="https://www.tongzhuo100.com/">同桌100学习网</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- google map -->
+
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
