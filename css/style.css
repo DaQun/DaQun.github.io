@@ -8,7 +8,7 @@ VERSION:	Versoin Number
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 /*  typography */
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");*/
 @font-face {
   font-family: 'futura-bold';
   src: url("../fonts/Futura-Bold.woff") format("woff");
@@ -619,7 +619,7 @@ link:focus,
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 70px 0px;
+  padding: 35px 0px;
 }
 
 @media (max-width: 991px) {
@@ -1003,7 +1003,6 @@ link:focus,
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 200px;
 }
 
 /* /footer */
